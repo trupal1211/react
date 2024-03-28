@@ -1,0 +1,70 @@
+body{
+  height: 100vh;
+  overflow: hidden;
+}
+h1{
+  text-align: center;
+  margin-top  : 20px;
+}
+h2{
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 700px;
+  gap: 12px;
+}
+
+input{
+  padding: 6px 14px;
+  font-size: 16px;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.btn{
+  background-color: royalblue;
+  color: white;
+  width: 25%;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 20px;
+}
+
+.user-container{
+  width: 600px;
+  height: 55vh;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.users{
+  width: 500px;
+  margin: 10px auto;
+  border: 1px solid rgb(233, 233, 233);
+  background-color: rgba(246, 246, 246, 0.925);;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 18px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  margin-bottom: 12px;
+}
+
+.color{
+  color: rgb(255, 6, 6);
+}

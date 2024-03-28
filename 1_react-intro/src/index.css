@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title{
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline rgb(255, 221, 0);
+}
+
+.img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card{
+  width: 250px;
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-radius: 14px;
+}
+
+.desc{
+  margin: 4px 0;
+  color: rgb(90, 90, 90);
+  font-size: 14px;
+}
+
+.card p{
+  margin: 6px 0;
+}
+
+.card h3{
+  margin: 8px 0;
+}
+
+.container{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.img-box{
+  
+  position: relative;
+}
+
+.price{
+  margin: 4px 0 8px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.rate-tag{
+  padding: 2px 12px;
+  border-radius: 14px;
+  position: absolute;
+  bottom: 4px;
+  left: 6px;
+  color: rgb(72, 49, 0) ;
+  background-color: rgb(255, 242, 211);
+  font-size: 14px;
+}
+
+
+.vote-tag{
+  padding: 1px 12px 3px;
+  border-radius: 14px;
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  color: rgb(0, 50, 21) ;
+  background-color: rgb(220, 255, 224);
+  font-size: 14px;
+  margin-top: 4px !important;
+}
+
+.d-none{
+  display: none;
+}
+
+
+
+
+/* ------  counter part  -------- */
+
+.counter-container{
+  margin: 20px;
+  text-align: center;
+}
+.btn{
+  padding: 18px 28px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 18px;
+}
+
+.btn:active{
+  transform: scale(1.02);
+}
+
+.box{
+  width: 150px;
+  height: 150px;
+  margin: 40px auto 0;
+  background-color: blanchedalmond;
+}
+
+.d-none{
+  display: none;
+}
