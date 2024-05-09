@@ -2,7 +2,7 @@ import styles from '../item/item.module.css'
 
 function Item(){
     return(
-        <button className="styles.btn">item buttom</button>
+        <button className={styles.btn}>Item buttom</button>
     )
 }
 

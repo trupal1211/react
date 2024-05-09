@@ -1,8 +1,10 @@
 .btn{
+    background-color:rgb(255, 34, 0);
+
     padding: 14px 30px;
     margin: 20px;
-    background-color:rgb(0, 62, 21);
     color: white;
     border: 0;
     border-radius: 12px;
+    font-size: 16px;
   }

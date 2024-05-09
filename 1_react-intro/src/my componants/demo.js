@@ -10,9 +10,11 @@ function demo(props){
             console.log('Rs 40 delivery charges addded!')
             console.log('Final price:-' ,props.price+40)
         }
+        console.log("----------------------")
+        
     }
 
-    return(
+    return( 
         <div className="card" onClick={foodOrderHandler}>
             <div className="img-box">
             <img className="img" src={"https://source.unsplash.com/1600x900/?" + props.img} />

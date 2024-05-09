@@ -73,6 +73,12 @@ const items = [
   }
 ];
 
+let name = 'what is your name ?   '
+
+function print(){
+  return " my name is devin AI";
+}
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -81,7 +87,8 @@ root.render(
 
     // <> 
     // <h1 className='trupal'>welcome to bootcamp!!!! {Math.random()*1000}</h1>
-    // <p>lorem</p>
+    //  // {fun.call , varialble , math equation etc.... }
+    // <p>{name}{print()}</p>
     // </>
 
 <>
